@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: #3a3d47;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.container{
+    width:1200px;
+    background-color: white;
+
+}
+.superior{
+    background-color: #1551a1;
+    overflow: hidden;
+    
+}
+.logo{
+    float: left;
+    width: 300px;
+    padding: 35px;
+}
+
+/* estilos para el menu */
+.menu{
+    float: left;
+    padding: 30px;
+}
+
+.opciones li{
+    float: left;
+    list-style: none;    
+}
+
+.opciones li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+.titulo{
+    color: rgb(7, 34, 90);
+    font-size: 25px;
+    text-align: center;
+    height: 50px;
+    
+}
+.opciones li a:hover{
+    background-color: rgb(19, 37, 97);
+}
+
+/* estilos para el cuerpo */
+
+.cuerpo{
+    overflow: hidden;
+}
+
+.caja{
+    float: left;
+    width: 380px;
+    margin: 5px;
+    border: 1px solid white;
+    background-color: aliceblue;
+}
+
+.subtitulo{
+    background-color: #0e233d;
+}
+
+.servicios{
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    margin: 5px;
+}
+
+.efecto:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.contenido{
+    padding: 15px;
+    text-align: justify;
+
+}
+.boton{
+    align-items: center;
+    padding: 8px;
+    background-color: #0e233d;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0;
+    border: 2px solid #0e5210; /* Green */
+    width: 30%;
+}
+
+.boton:hover{
+    background-color: rgb(15, 135, 156);
+    cursor: pointer;
+}
+
+/* estilos para footer */
+.pie{
+    background-color: #111922;
+    
+    
+}
+
+.izquierda{
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+
+.derecha{
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+
+.abajo{
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.siguenos{
+    text-align: left;
+    color: white;
+}
